@@ -1,0 +1,49 @@
+body.homepage{
+    font-family: Arial
+
+}
+
+body.menupage{
+    font-family: Arial
+    background-image= url("../pictures/paper.gif");
+    
+
+}
+body.locationn{
+    font-family:Arial
+    
+
+
+}
+div.double
+{
+    border : 3px double purple;
+    margin: 20px;
+    padding: 25px;
+}
+p.homepage{
+    font-size: 22px;
+}
+p.locationn{
+    font-size: 22px;
+} 
+p.menupage{
+    font-size: 22px;
+    border-style: outset;
+}
+
+
+h1.homepage{
+    font-size: 42px;
+}
+h1.menupage{
+    font-size: 42px;
+    color:green;
+    text-align:center;
+}
+h1.locationn{
+    font-family:arial;
+    text-align:center;
+    color: olive;
+    font-size: 42px;
+}

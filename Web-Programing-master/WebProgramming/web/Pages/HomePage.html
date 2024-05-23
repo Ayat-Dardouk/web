@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<title>restaurantaugust.com</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../CSS/style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+/* Style the content */
+article {
+    background-image: url("../pictures/b71d7b78edaa2e6396f2ede2abb35c08.jpg"); 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  background-color: white;
+  padding: 200px;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:rgb(96, 78, 96);
+}
+h1{
+    color:olive;
+}
+a:link {
+  color:brown;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color:brown;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+nav {
+  float: left;
+  width: 15%;
+  height: 150px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+  margin-top: 400px;
+  margin-left: 100px;
+}
+img {
+    width: 300px;
+    height:300px;
+    padding :200px
+    margin-top= 300px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+</style>
+
+</head>
+<body class="homepage">
+<section>
+  
+  <article>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 class="homepage">AUGUST</h1>
+           
+           <p style="word-spacing:0.8cm;"> <a href="HomePage.html"  >HomePage</a> <a href="MenuPage.html"  >Menu</a>  <a href="Location.html">Location</a> <a href="Delivery.html">Delivery</a></p>
+          <p class="homepage"  >August is a healthy restaurant that serves unique dishes with an emphasis on all the essential nutrients that the body needs.
+            Located in a historic 19th-century French</p>
+        </div>
+    </div>
+    
+  </article>
+</section>
+
+
+</body>
+</html>
